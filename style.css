@@ -25,6 +25,16 @@ body {
     max-width: 80% !important;
   }
 }
+@media screen and (max-width: 920px) {
+  .container {
+    max-width: 60% !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+}
 input,
 button {
   font-family: inherit !important;
@@ -33,6 +43,8 @@ button {
   border-radius: 0.2rem;
   outline-width: 0.2px !important;
   outline-color: var(--main-color);
+  display: block;
+  width: 100%;
 }
 input {
   border: 1px solid #bbb;
