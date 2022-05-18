@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+:root {
+  --main-color: #3498db;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 40%;
+  margin: 2rem auto;
+}
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 80% !important;
+  }
+}
+input,
+button {
+  font-family: inherit !important;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  outline-width: 0.2px !important;
+  outline-color: var(--main-color);
+}
+input {
+  border: 1px solid #bbb;
+}
+button#bmi-submit {
+  border: 1px solid transparent;
+  background-color: var(--main-color);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.15s background-color ease-in;
+  box-shadow: 1px 1px 4px 0px gray;
+}
+button#bmi-submit:hover {
+  background-color: #2980b9;
+}
+#bmi-form {
+  box-shadow: 2px 2px 8px 0px #737373;
+  border-radius: 0.35rem;
+  padding: 1rem 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+#bmi-form > div {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+/* #bmi-height {
+  margin-top: 1rem;
+} */
+#bmi-form > div label {
+  padding: 0.25rem 0;
+}
+.center-text {
+  text-align: center !important;
+}
+h1.center-text {
+  padding: 1rem 0.5rem;
+  color: #222;
+}
+#result {
+  color: var(--main-color);
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+}

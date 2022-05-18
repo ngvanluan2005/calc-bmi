@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BMI Caculator</title>
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center-text">Check your BMI</h1>
+      <form id="bmi-form">
+        <div id="bmi-weight">
+          <label for="weight">Weight (kg)</label>
+          <input
+            required
+            type="number"
+            autofocus
+            id="weight"
+            placeholder="63"
+          />
+        </div>
+        <div id="bmi-height">
+          <label for="height">Height (cm)</label>
+          <input required type="number" id="height" placeholder="170" />
+        </div>
+        <button id="bmi-submit" type="submit">Caculate BMI</button>
+      </form>
+      <p id="result">Result here.</p>
+    </div>
+  </body>
+</html>
