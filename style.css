@@ -12,6 +12,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #18222c;
 }
 .container {
   max-width: 40%;
@@ -62,6 +63,7 @@ button#bmi-submit:hover {
 }
 #bmi-form {
   box-shadow: 2px 2px 8px 0px #737373;
+  background-color: #fff;
   border-radius: 0.35rem;
   padding: 1rem 1.2rem;
   display: grid;
@@ -83,7 +85,7 @@ button#bmi-submit:hover {
 }
 h1.center-text {
   padding: 1rem 0.5rem;
-  color: #222;
+  color: #eee;
 }
 #result {
   color: var(--main-color);
